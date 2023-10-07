@@ -87,9 +87,6 @@ margin-right: 76px;
 .header-logo-black {
 color: #2E2F42;
 }
-.carrent {
-   
-}
 .header-address {
 font-style: normal;        
 }
@@ -117,23 +114,19 @@ color:#404bbf;
 }
 .header-menu-item {
     padding-top: 24px;
-    padding-bottom: 24px;   
+    padding-bottom: 24px; 
 }
-.header-menu-item{
-      }  
+
 .header-menu-link {
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color, border-radius, border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-menu-link:hover,  .header-menu-link:focus {
-       color:#404bbf;
-}
-.carrent:hover::after,  .carrent:focus::after {
-    content: '';
-    padding: 24px;
+.header-menu-link:hover, .header-menu-link:focus {
     border-radius: 2px;
     border-bottom: 2px solid #404BBF;
+    color:#404bbf;
 }
 
 /** ================================= */
