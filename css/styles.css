@@ -424,12 +424,13 @@ padding-top: 100px;
 padding-bottom: 100px;
 }
 .footer-container {
-    display: flex;
-    gap: 120px;  
+    display: flex;  
+}
+.footer-logo-text {
+   margin-right: 120px;;
 }
 .footer-soc-wrap {
     align-items: baseline;
-    margin-right: 120px;
 }
   
 .footer-soc-list {
